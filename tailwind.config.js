@@ -4,13 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        ElectricCyan: '#0FF1F6',
+        deepJungleGreen: "#002228",
+        electricCyan: "#0FF1F6",
+        secondary: "#E9EEF1",
       },
       backgroundColor: {
-        DeepJungleGreen: "#002228",
-        ElectricBlue: '#0FF1F6',
-                RichBlack: '#07292F'
-
+        deepJungleGreen: "#002228",
+        electricBlue: "#0FF1F6",
+        richBlack: "#07292F",
       },
       fontFamily: {
         workSans: '"Work Sans", sans-serif',
