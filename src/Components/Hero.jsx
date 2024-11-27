@@ -4,7 +4,7 @@ import { BsArrowUpRightSquare } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <div className='bg-[url("/firstcover.png")] bg-no-repeat bg-cover sm:px-10 px-4 w-full sm:py-[110px] xl:px-40 pb-[72px] pt-11 space-y-[10px] '>
+    <div className='bg-[url("/firstcover.png")] bg-no-repeat bg-cover sm:px-10 px-4 w-full sm:py-[110px] xl:px-40 pb-[72px] pt-11 space-y-[10px] border-t border-dotted'>
       <h4 className="text-electricCyan font-montserrat sm:text-2xl  text-base sm:leading-7 leading-5 tracking-[5%]  text-center md:text-start">
         AI SDRs (aiDRs)
       </h4>
