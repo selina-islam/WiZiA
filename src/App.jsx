@@ -9,6 +9,7 @@ import Train from './Components/Train';
 import TestimonialCarousel from './Components/Carousel';
 import Effort from './Components/Effort';
 import GetStarted from './Components/Getstarted';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -22,8 +23,8 @@ function App() {
       <Train />
       <TestimonialCarousel />
       <Effort />
-      <GetStarted/>
-      <Buttons className="bg-electricCyan border text-deepJungleGreen border-sky-400 flex items-center gap-2">SELINA  <BsArrowUpRightSquare /> </Buttons>
+      <GetStarted />
+      <Footer/>
 
     </>
   )
