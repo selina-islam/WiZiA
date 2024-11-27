@@ -8,6 +8,7 @@ import Offer from './Components/Offer';
 import Train from './Components/Train';
 import TestimonialCarousel from './Components/Carousel';
 import Effort from './Components/Effort';
+import GetStarted from './Components/Getstarted';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
       <Offer />
       <Train />
       <TestimonialCarousel />
-      <Effort/>
+      <Effort />
+      <GetStarted/>
       <Buttons className="bg-electricCyan border text-deepJungleGreen border-sky-400 flex items-center gap-2">SELINA  <BsArrowUpRightSquare /> </Buttons>
 
     </>
