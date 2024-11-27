@@ -5,6 +5,8 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Partner from './Components/Partner';
 import Offer from './Components/Offer';
+import Train from './Components/Train';
+import TestimonialCarousel from './Components/Carousel';
 
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
       <Navbar />
       <Hero />
       <Partner />
-      <Offer/>
+      <Offer />
+      <Train />
+      <TestimonialCarousel/>
       <Buttons className="bg-electricCyan border text-deepJungleGreen border-sky-400 flex items-center gap-2">SELINA  <BsArrowUpRightSquare /> </Buttons>
 
     </>
